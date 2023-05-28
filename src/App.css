@@ -67,7 +67,8 @@
 
 
 
-button {
+button,
+a {
   border: none;
   cursor: pointer;
   color: #fff;
@@ -76,6 +77,9 @@ button {
   border-radius: 5px;
   font-size: 1.1rem;
   width: 95%;
+  text-decoration: none;
+  padding: 12px;
+  text-align: center;
 }
 
 .btn-secondary {
